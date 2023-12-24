@@ -26,7 +26,7 @@
       </div>
       <div class="flex-[2] bg-pink-50"></div>
     </div>
-    <div class="w-[300px] min-h-96 sm:w-96 contenaire space-y-5 bg-white rounded-lg p-5">
+    <div class="w-[300px] min-h-[450px] sm:w-[500px] contenaire space-y-10 bg-white flex flex-col rounded-lg p-5">
 
       <!-- Title  -->
       <div class="flex space-x-2 items-center">
@@ -36,38 +36,40 @@
       <!-- end title -->
 
       <!-- One  accordion -->
-      <div class="space-y-2" onclick="showMore(this)">
-        <a
-          class="flex space-x-2 justify-between items-start font-semibold text-violet-950 hover:text-violet-600 cursor-pointer">
-          <p>What is Frontend Mentor, and how willit help me?</p>
-          <img src="./assets/images/icon-minus.svg" id="image-icon" alt="icon minus or plus">
-        </a>
-        <p id="answer" class="text-gray-400 hidden ">
-          Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills
-          with projects in HTML, CSS and javaScript, It's suitable for all levels and ideals for portolio buildig.
-        </p>
-      </div>
-      <div class="space-y-2" onclick="showMore(this)">
-        <a href="#project"
-          class="flex space-x-2 justify-between items-start font-semibold text-violet-950 hover:text-violet-600 cursor-pointer">
-          <p>Can i use Frontend Mentor, projects in my portfolio ?</p>
-          <img src="./assets/images/icon-minus.svg" id="image-icon" alt="icon minus or plus">
-        </a>
-        <p id="answer" class="text-gray-400 hidden">
-          Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills
-          with projects in HTML, CSS and javaScript, It's suitable for all levels and ideals for portolio buildig.
-        </p>
-      </div>
-      <div class="space-y-2" onclick="showMore(this)">
-        <a href="#help"
-          class="peer/accordion group/accordion flex space-x-2 justify-between items-start font-semibold text-violet-950 hover:text-violet-600 cursor-pointer">
-          <p>How can i get help if i'm stuck on a chanlege?</p>
-          <img src="./assets/images/icon-minus.svg" id="image-icon" alt="icon minus or plus">
-        </a>
-        <p id="answer" class="text-gray-400 hidden">
-          Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills
-          with projects in HTML, CSS and javaScript, It's suitable for all levels and ideals for portolio buildig.
-        </p>
+      <div class="flex-1 pt-5 flex flex-col space-y-5">
+        <div class="space-y-2" onclick="showMore(this)">
+          <a
+            class="flex space-x-2 justify-between items-start font-semibold text-violet-950 hover:text-violet-600 cursor-pointer">
+            <p>What is Frontend Mentor, and how willit help me?</p>
+            <img src="./assets/images/icon-minus.svg" class="image-icon" alt="icon minus or plus">
+          </a>
+          <p  class="answer text-gray-400 hidden ">
+            Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills
+            with projects in HTML, CSS and javaScript, It's suitable for all levels and ideals for portolio buildig.
+          </p>
+        </div>
+        <div class="space-y-2" onclick="showMore(this)">
+          <a href="#project"
+            class="flex space-x-2 justify-between items-start font-semibold text-violet-950 hover:text-violet-600 cursor-pointer">
+            <p>Can i use Frontend Mentor, projects in my portfolio ?</p>
+            <img src="./assets/images/icon-minus.svg" class="image-icon"  alt="icon minus or plus">
+          </a>
+          <p class="text-gray-400 hidden answer">
+            Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills
+            with projects in HTML, CSS and javaScript, It's suitable for all levels and ideals for portolio buildig.
+          </p>
+        </div>
+        <div class="space-y-2" onclick="showMore(this)">
+          <a href="#help"
+            class="flex space-x-2 justify-between items-start font-semibold text-violet-950 hover:text-violet-600 cursor-pointer">
+            <p>How can i get help if i'm stuck on a chanlege?</p>
+            <img src="./assets/images/icon-minus.svg" class="image-icon" alt=" icon minus or plus">
+          </a>
+          <p  class="text-gray-400 hidden answer">
+            Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills
+            with projects in HTML, CSS and javaScript, It's suitable for all levels and ideals for portolio buildig.
+          </p>
+        </div>
       </div>
 
     </div>

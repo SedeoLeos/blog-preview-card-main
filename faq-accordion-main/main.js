@@ -1,7 +1,7 @@
 function showMore(accordion){
     // const clickQestion = questionBox.querySelector(".question");
-    const showAnswer = accordion.querySelector("#answer");
-    const changeIcon = accordion.querySelector("#image-icon");
+    const showAnswer = accordion.querySelector(".answer");
+    const changeIcon = accordion.querySelector(".image-icon");
 
     if(showAnswer.classList.contains("hidden")){
         showAnswer.classList.remove("hidden");
